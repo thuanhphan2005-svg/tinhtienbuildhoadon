@@ -55,7 +55,7 @@ if "admin_logged_in" not in st.session_state:
 page = st.sidebar.radio("📋 Chọn trang hệ thống", ["🍽️ Order", "🔑 Admin"])
 
 if page == "🍽️ Order":
-    st.title("🍽️ Hệ thống Order Nhà Hàng_Dr Trúc")
+    st.title("🍽️ Hệ thống Order Nhà Hàng_Dr Thuận")
     st.caption("Ghi nhận order nhanh chóng và chính xác theo thời gian thực")
 
     col1, col2 = st.columns([1, 1.3])
